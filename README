@@ -1,9 +1,13 @@
 This project contains latest compiled v8 libraries for Android in Arm and Arm64 flavours.
+Tested and ready to use !!
 
-Each folder contains the needed static library files and compilation headers.
-`include` folder contains basic hader files needed to compile the project successfully.
-If you need to make use of v8's `inspector` capabilities, you'll need as well the contents of `src` folder to make your project compile.
+Each folder contains all necessary files to have an Android app successfully running embedded v8.
+The `include` folder contains basic hader files needed to compile an Android Apk.
+If you need to make use of v8's `inspector` capabilities, you'll need to include the `src` folder as include source for your project as well.
 
-In both `arm` and `arm64` folders there's this file `libv8_base.a.zip`. It is a compressed version of the library file. Needed because the `arm64` flavour is beyond 100Mb in size and won't fit in github. Just uncompress and use.
+In both `arm` and `arm64` folders you must uncompress `libv8_base.a.zip` file. 
+This file contains the main v8 library file (base, libbase, libplatform, libsampler and libinspector).
+It ships compressed for the evident file sizes (>100Mb)
 
-Current supported version is just 6.4 or lkgr at the time I compiled the files, but I plan to keep continuos delivery of newer v8 compiled versions.
+Currently only V8 6.4 (or lkgr at the time I compiled it) is supported.
+I plan add newer versions as they are ready to ship.
