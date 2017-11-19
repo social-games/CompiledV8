@@ -9,5 +9,5 @@ In both `arm` and `arm64` folders you must uncompress `libv8_base.a.zip` file.
 This file contains the main v8 library file (base, libbase, libplatform, libsampler and libinspector).
 It ships compressed for the evident file sizes (>100Mb)
 
-Currently only V8 6.4 (or lkgr at the time I compiled it) is supported.
-I plan add newer versions as they are ready to ship.
+Currently only V8 6.4 (or lkgr at the time we compiled it) is supported.
+We plan add newer versions as they are ready to ship.
