@@ -10,4 +10,4 @@ This file contains the main v8 library file (base, libbase, libplatform, libsamp
 It ships compressed for the evident file sizes (>100Mb)
 
 Currently only V8 6.4 (or lkgr at the time we compiled it) is supported.
-We plan add newer versions as they are ready to ship.
+We plan to add newer versions as they are ready to ship.
